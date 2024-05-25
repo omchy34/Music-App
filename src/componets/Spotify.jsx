@@ -104,7 +104,7 @@ const Spotify = () => {
               <LuLibrary className="mt-1" />
               <span className="">Your Library</span> <br />
             </div>
-            <ul className="h-56">
+            <ul className="h-56 w-40">
               {songs.map((song, index) => (
                 <li key={index} className="h-8 rounded-xl p-1 w-40">
                   <button onClick={() => playSong(index)}>
