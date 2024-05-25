@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.play {
+    position: absolute;
+    right: 10%;
+    top: 67%;
+    font-size: 40px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
